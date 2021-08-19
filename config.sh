@@ -5,6 +5,9 @@ echo 'Please set the proxychains proxy before use!'
 #set ssh client
 sudo echo 'ServerAliveInterval 50' >> /etc/ssh/ssh_config
 
+#set zshrc file
+cp my_zshrc ~/.zshrc
+
 #install i3
 sudo apt install i3-wm i3status suckless-tools
 cp i3_congfig ~/.config/i3/config
