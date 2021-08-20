@@ -11,4 +11,6 @@ i3
 Alacritty  
 zsh  
 ssh-client  
+feh  
+
 
