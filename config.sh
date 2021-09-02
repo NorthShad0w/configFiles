@@ -26,6 +26,10 @@ cd alacritty
 #curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 proxychains cargo build --release && sudo cp target/release/alacritty /usr/local/bin
 
+#set alacritty color
+mkdir ~/.config/alacritty
+cp alacritty.yml ~/.config/alacritty/alacritty.yml
+
 #wget https://raw.githubusercontent.com/NorthShad0w/configFiles/main/qterminal.ini -O ~/.config/qterminal.org/qterminal.ini
 #exo-open --launch TerminalEmulator
 #exit
