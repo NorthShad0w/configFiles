@@ -12,7 +12,7 @@ Alacritty
 zsh  
 ssh-client  
 feh  
-rofi
-compton
-pywal
+rofi  
+compton  
+pywal  
 
