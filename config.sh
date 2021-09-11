@@ -50,5 +50,9 @@ proxychains cargo build --release && sudo cp target/release/alacritty /usr/local
 mkdir ~/.config/alacritty
 cp alacritty.yml ~/.config/alacritty/alacritty.yml
 
+# install pywal
+
+proxychains python3 -m pip install pywal
+
 echo 'remove open-vmware-tools and install vmware-tools'
 echo 'reboot please'
