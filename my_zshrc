@@ -235,10 +235,9 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
-
+#alias ll='ls -l'
+#alias la='ls -A'
+#alias l='ls -CF'
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -253,3 +252,10 @@ fi
 
 # export python3 binary env path
 export PATH=$PATH:~/.local/bin
+# golang env
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+# gem env
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
