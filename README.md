@@ -14,5 +14,6 @@ ssh-client
 feh  
 rofi  
 compton  
-pywal  
+pywal
+tmux  
 
