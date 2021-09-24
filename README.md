@@ -1,6 +1,7 @@
 # The repository is deprecated!
 I dicided to move to arch linux.  
 Using kali just for pentesting  
+no need for customize  
 
 
 # configFiles
