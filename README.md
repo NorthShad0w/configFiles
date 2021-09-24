@@ -1,3 +1,8 @@
+# The repository is deprecated!
+I dicided to move to arch linux.  
+Using kali just for pentesting  
+
+
 # configFiles
 Some of my kali preferred configuration files.  
 I always use this repository to automate the configuration phase of my kali install process.
