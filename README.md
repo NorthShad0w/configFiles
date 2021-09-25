@@ -8,12 +8,12 @@ cat config.sh | sudo bash
 ## softwares that will be changed List
 Qterminal --- *deprecated! Now I use tmux + i3 + Alacritty.It's More convenient and efficient.*  
 i3  
-Alacritty  
+Alacritty  --- I use kitty now  
 zsh  
 ssh-client  
 feh  
 rofi  
 compton  
-pywal
+pywal  
 tmux  
 
