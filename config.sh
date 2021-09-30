@@ -37,7 +37,7 @@ cp rofi_config ~/.config/rofi/config
 cp clipboard_fix.sh ~/.config/i3/clipboard_fix.sh
 
 #install i3
-cp i3_congfig ~/.config/i3/config
+cp i3_config ~/.config/i3/config
 
 #set wallpaper
 cp dark.jpg ~/.config/dark.jpg
