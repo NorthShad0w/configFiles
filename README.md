@@ -23,5 +23,5 @@ compton
 pywal  
 tmux  
 vim   
-veovim  
+neovim  
 
