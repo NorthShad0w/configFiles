@@ -28,5 +28,5 @@ compton
 pywal  
 tmux  
 vim   
-neovim  
+neovim --- plugins  
 
