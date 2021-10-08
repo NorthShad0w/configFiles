@@ -22,4 +22,6 @@ rofi
 compton  
 pywal  
 tmux  
+vim   
+veovim  
 
