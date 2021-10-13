@@ -29,4 +29,10 @@ pywal
 tmux  
 vim   
 neovim --- plugins  
+github -- gh  
+google-chrome  
+vs-code  
+rustup  
+golang  
+
 
