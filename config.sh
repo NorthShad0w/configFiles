@@ -43,6 +43,12 @@ cp i3_config ~/.config/i3/config
 cp dark.jpg ~/.config/dark.jpg
 cp .fehbg ~/.fehbg
 
+# fonts FiraCode NF
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+sudo mv FiraCode.zip /usr/share/fonts
+cd /usr/share/fonts
+sudo unzip FiraCode.zip
+fc-cache -r
 
 #install alacritty
 proxychains git clone https://github.com/alacritty/alacritty.git
