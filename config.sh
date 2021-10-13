@@ -22,11 +22,7 @@ ninja
 sudo ninja install
 cd ../..
 
-mkdir -p ~/.config/i3
-
-mkdir -p ~/.config/compton
-
-mkdir -p ~/.config/rofi
+mkdir -p ~/.config/i3 && mkdir -p ~/.config/compton && mkdir -p ~/.config/rofi
 
 
 #config files
@@ -55,6 +51,9 @@ proxychains git clone https://github.com/alacritty/alacritty.git
 cd alacritty
 #curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 proxychains cargo build --release && sudo cp target/release/alacritty /usr/local/bin
+sudo cp extra/logo/alacritty-term.svg /usr/share/pixmaps/Alacritty.svg
+sudo desktop-file-install extra/linux/Alacritty.desktop
+sudo update-desktop-database
 
 #set alacritty color
 mkdir ~/.config/alacritty
