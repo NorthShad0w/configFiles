@@ -9,6 +9,9 @@ git clone https://github.com/NorthShad0w/configFiles.git
 cd configFiles  
 cat config.sh | sudo bash  
 
+## recommends
+swap ESC and CAPS
+swap ALT and CTRL
 ## Fonts
 
 FiraCode NF
@@ -17,7 +20,7 @@ FiraCode NF
 
 i3  
 Alacritty  
-git
+git  
 zsh  
 ssh-client  
 feh  
