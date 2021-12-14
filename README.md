@@ -11,7 +11,7 @@ cat config.sh | sudo bash
 
 ## Fonts
 
-FiraMono NF
+FiraCode NF
 
 ## softwares that will be changed List
 

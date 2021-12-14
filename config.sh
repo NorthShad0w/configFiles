@@ -30,9 +30,9 @@ cp -r config ~/.config
 cp fehbg ~/.fehbg
 
 # fonts FiraCode NF
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraMono.zip
-sudo cp FiraMono.zip /usr/share/fonts
-sudo unzip /usr/share/fonts/FiraMono.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+sudo cp FiraCode.zip /usr/share/fonts
+sudo unzip /usr/share/fonts/FiraCode.zip
 fc-cache -r
 
 #install alacritty
