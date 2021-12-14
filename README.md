@@ -23,6 +23,6 @@ ssh-client
 feh  
 rofi  
 compton  
-tmux
-neovim  
+tmux  
+neovim    
 rustup  
