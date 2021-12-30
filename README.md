@@ -7,10 +7,9 @@ I always use this repository to automate the configuration phase of my kali inst
 
 git clone https://github.com/NorthShad0w/configFiles.git  
 cd configFiles  
-cat config.sh | sudo bash  
 
 ## recommends
-swap ESC and CAPS
+swap ESC and CAPS  
 swap ALT and CTRL
 ## Fonts
 
