@@ -4,6 +4,7 @@
 sudo echo 'ServerAliveInterval 50' >> /etc/ssh/ssh_config
 
 #set zshrc file
+# offical may better
 cp zshrc ~/.zshrc
 cp zshenv ~/.zshenv
 
@@ -16,7 +17,9 @@ sudo apt install arandr flameshot arc-theme feh i3blocks i3status i3 i3-wm lxapp
 
 # rustup
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 # install i3-gaps
+cd ../
 git clone https://www.github.com/Airblader/i3 i3-gaps
 cd i3-gaps && mkdir -p build && cd build && meson ..
 ninja
@@ -24,6 +27,8 @@ sudo ninja install
 cd ../..
 
 # config dir
+cd configFiles
+rm -r ~/.config
 cp -r config ~/.config
 
 #set wallpaper
@@ -32,6 +37,7 @@ cp fehbg ~/.fehbg
 # fonts FiraCode NF
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
 sudo cp FiraCode.zip /usr/share/fonts
+cd /usr/share/fonts
 sudo unzip /usr/share/fonts/FiraCode.zip
 fc-cache -r
 
