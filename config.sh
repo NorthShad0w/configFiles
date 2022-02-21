@@ -29,8 +29,7 @@ cd ../..
 
 # config dir
 cd configFiles
-rm -r ~/.config
-cp -r config ~/.config
+cp -r config/* ~/.config
 
 #set wallpaper
 cp fehbg ~/.fehbg
