@@ -41,7 +41,11 @@ cd /usr/share/fonts
 sudo unzip /usr/share/fonts/FiraCode.zip
 fc-cache -r
 
+# cd back
+cd -
+
 #install alacritty
+cd ../
 git clone https://github.com/alacritty/alacritty.git
 cd alacritty
 cargo build --release && sudo cp target/release/alacritty /usr/local/bin
@@ -51,5 +55,10 @@ sudo update-desktop-database
 cd ../
 
 #gitconfig
+cd configFiles
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh
 cp gitconfig ~/.gitconfig
 echo 'reboot please'
