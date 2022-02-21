@@ -28,3 +28,9 @@ compton
 tmux  
 neovim    
 rustup  
+
+## softwares install cheat-sheet
+burp-pro
+chrome
+vs-code
+golang
