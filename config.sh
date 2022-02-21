@@ -5,6 +5,7 @@ echo 'ServerAliveInterval 50'| sudo tee -a /etc/ssh/ssh_config
 
 #set zshrc file
 # offical may better
+# do not forget to change max history size
 cp zshrc ~/.zshrc
 cp zshenv ~/.zshenv
 
