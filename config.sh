@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #set ssh client
-sudo echo 'ServerAliveInterval 50' >> /etc/ssh/ssh_config
+echo 'ServerAliveInterval 50'| sudo tee -a /etc/ssh/ssh_config
 
 #set zshrc file
 # offical may better
