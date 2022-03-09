@@ -71,4 +71,9 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githu
 sudo apt update
 sudo apt install gh
 cp gitconfig ~/.gitconfig
+
+# nodejs
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install -y nodejs
+
 echo 'reboot please'
