@@ -27,10 +27,13 @@ rofi
 compton  
 tmux  
 neovim    
-rustup  
+rustup 
 
 ## softwares install cheat-sheet
-burp-pro
-chrome
-vs-code
-golang
+burp-pro  
+chrome  
+vs-code  
+golang  
+nodejs  
+npm
+
