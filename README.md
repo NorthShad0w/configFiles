@@ -26,7 +26,7 @@ feh
 rofi  
 compton  
 tmux  
-neovim    
+neovim **deeply configured**  
 rustup 
 
 ## softwares install cheat-sheet
