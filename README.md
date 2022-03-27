@@ -4,9 +4,12 @@ Some of my kali preferred configuration files.
 I always use this repository to automate the configuration phase of my kali install process.
 
 ## Usage
-
+```bash
 git clone https://github.com/NorthShad0w/configFiles.git  
 cd configFiles  
+cat config.sh | bash
+```
+
 
 ## recommends
 swap ESC and CAPS  
