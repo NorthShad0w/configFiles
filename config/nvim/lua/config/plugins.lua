@@ -47,7 +47,7 @@ return packer.startup(function(use)
   use "kyazdani42/nvim-web-devicons" --icons
 
   --bufferline
-  use "akinsho/bufferline.nvim"
+  use {'akinsho/bufferline.nvim', tag = "*", requires = 'kyazdani42/nvim-web-devicons'}
   use "moll/vim-bbye"
   --nvim-treesitter
   use {
