@@ -14,7 +14,7 @@ sudo apt install -y tmux
 cp tmux.conf ~/.tmux.conf
 
 #install requirements
-sudo apt install -y build-essential arandr flameshot arc-theme feh i3blocks i3status i3 i3-wm lxappearance python3-pip rofi unclutter compton papirus-icon-theme imagemagick libxcb-shape0-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev autoconf meson libxcb-render-util0-dev libxcb-shape0-dev libxcb-xfixes0-dev libiconv-hook-dev gettext libtool libtool-bin cmake doxygen
+sudo apt install -y arandr arc-theme autoconf build-essential cmake compton doxygen feh flameshot gettext i3 i3-wm i3blocks i3status imagemagick libev-dev libiconv-hook-dev libpango1.0-dev libstartup-notification0-dev libtool libtool-bin libxcb-cursor-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-randr0-dev libxcb-render-util0-dev libxcb-shape0-dev libxcb-shape0-dev libxcb-util0-dev libxcb-xfixes0-dev libxcb-xinerama0-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-xrm0 libxcb1-dev libxkbcommon-dev libxkbcommon-x11-dev libyajl-dev lxappearance meson papirus-icon-theme python3-pip rofi unclutter xcb xclip
 
 # install ghidra
 sudo apt install -y ghidra
