@@ -35,6 +35,12 @@ cd ../..
 cd configFiles
 cp -r config/* ~/.config
 
+rm -rf /home/ns/.config/nvim/init.lua
+rm -rf /home/ns/.config/nvim/lua
+
+ln -s $(pwd)/config/nvim/init.lua /home/ns/.config/nvim/init.lua
+ln -s $(pwd)/config/nvim/lua /home/ns/.config/nvim/lua
+
 #set wallpaper
 cp fehbg ~/.fehbg
 
