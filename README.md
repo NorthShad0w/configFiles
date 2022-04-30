@@ -31,6 +31,7 @@ compton
 tmux  
 neovim **deeply configured**  
 rustup 
+ghidra
 
 ## softwares install cheat-sheet
 burp-pro  

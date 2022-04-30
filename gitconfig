@@ -3,3 +3,5 @@
 	helper = !/usr/bin/gh auth git-credential
 [core]
 	editor = nvim
+[commit]
+        gpgsign = true
