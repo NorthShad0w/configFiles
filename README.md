@@ -29,7 +29,6 @@ feh
 rofi  
 compton  
 tmux  
-neovim **deeply configured**  
 rustup 
 ghidra
 
@@ -41,3 +40,6 @@ golang
 nodejs  
 npm
 
+## neovim config for develop
+
+`https://github.com/NorthShad0w/neovim_config`
