@@ -31,15 +31,21 @@ compton
 tmux  
 rustup 
 ghidra
+golang
+nodejs
 
 ## softwares install cheat-sheet
+
 burp-pro  
 chrome  
 vs-code  
-golang  
-nodejs  
-npm
 
 ## neovim config for develop
+
+spacevim or lunarvim
+
+## other
+
+private keys
 
 `https://github.com/NorthShad0w/neovim_config`

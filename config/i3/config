@@ -211,7 +211,7 @@ exec_always --no-startup-id bash ~/.fehbg
 # compton - Compositing Manager for Shadows and Opacity
 exec_always --no-startup-id compton -b --config ~/.config/compton/compton.conf
 
-exec_always --no-startup-id xrandr --output Virtual1 --scale 0.7x0.7
+# exec_always --no-startup-id xrandr --output Virtual1 --scale 0.7x0.7
 # VM Clipboard Fix
 exec_always --no-startup-id bash ~/.config/i3/clipboard_fix.sh
 
