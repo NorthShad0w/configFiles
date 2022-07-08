@@ -29,10 +29,10 @@ feh
 rofi  
 compton  
 tmux  
-rustup 
-ghidra
-golang
-nodejs
+rustup  
+ghidra  
+golang  
+nodejs  
 
 ## softwares install cheat-sheet
 
@@ -47,5 +47,7 @@ spacevim or lunarvim
 ## other
 
 private keys
+
+zsh max histroy to 99999999
 
 `https://github.com/NorthShad0w/neovim_config`
