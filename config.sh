@@ -69,10 +69,7 @@ sudo make install
 cd ../
 
 #gitconfig
-cd configFiles
-wget https://github.com/cli/cli/releases/download/v2.14.7/gh_2.14.7_linux_amd64.deb
-sudo apt install ./gh_2.14.7_linux_amd64.deb
-rm -rf ./gh_2.14.7_linux_amd64.deb
+sudo apt install gh
 cp gitconfig ~/.gitconfig
 
 # nodejs
