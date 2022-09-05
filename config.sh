@@ -44,6 +44,8 @@ sudo cp FiraCode.zip /usr/share/fonts
 cd /usr/share/fonts
 sudo unzip /usr/share/fonts/FiraCode.zip
 fc-cache -r
+sudo rm -rf /usr/share/fonts/FiraCode.zip
+sudo rm -rf ./FiraCode.zip
 
 # cd back
 cd -
