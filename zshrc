@@ -259,3 +259,5 @@ fi
 
 # export env
 source ~/.zshenv
+
+export PATH=$PATH:~/.local/bin
