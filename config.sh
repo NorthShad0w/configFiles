@@ -66,18 +66,18 @@ git clone https://github.com/neovim/neovim.git
 cd neovim
 make CMAKE_BUILD_TYPE=Release
 sudo make install
+cd ../
 
 #gitconfig
 cd configFiles
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-sudo apt update
-sudo apt install -y gh
+wget https://github.com/cli/cli/releases/download/v2.14.7/gh_2.14.7_linux_amd64.deb
+sudo apt install ./gh_2.14.7_linux_amd64.deb
+rm -rf ./gh_2.14.7_linux_amd64.deb
 cp gitconfig ~/.gitconfig
 
 # nodejs
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-sudo apt install -y nodejs
+sudo apt install -y nodejs npm
+sudo npm install -g yarn 
 
 # chrome
 cd ~/Downloads/
