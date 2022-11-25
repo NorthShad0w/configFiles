@@ -39,16 +39,17 @@ cp -r config/* ~/.config
 cp fehbg ~/.fehbg
 
 # fonts FiraCode NF
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip
 sudo cp FiraCode.zip /usr/share/fonts
 cd /usr/share/fonts
 sudo unzip /usr/share/fonts/FiraCode.zip
 fc-cache -r
 sudo rm -rf /usr/share/fonts/FiraCode.zip
+cd -
 sudo rm -rf ./FiraCode.zip
 
 # cd back
-cd -
+# cd -
 
 #install alacritty
 cd ../
