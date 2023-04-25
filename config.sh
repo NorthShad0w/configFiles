@@ -39,7 +39,7 @@ cp -r config/* ~/.config
 cp fehbg ~/.fehbg
 
 # fonts FiraCode NF
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
 sudo cp FiraCode.zip /usr/share/fonts
 cd /usr/share/fonts
 sudo unzip /usr/share/fonts/FiraCode.zip
