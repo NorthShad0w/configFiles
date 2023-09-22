@@ -1,7 +1,7 @@
 # configFiles
 
-Some of my kali preferred configuration files.  
-I always use this repository to automate the configuration phase of my kali install process.
+Some of my linux preferred configuration files.  
+I always use this repository to automate the configuration phase of my linux install process.
 
 ## Usage
 ```bash
@@ -11,12 +11,13 @@ cat config.sh | bash
 ```
 
 
-## recommends
+## kmonad
 swap ESC and CAPS  
 swap ALT and CTRL
 ## Fonts
 
 FiraCode NF
+SarasaMono
 
 ## softwares that will be changed List
 
@@ -48,6 +49,3 @@ spacevim or lunarvim
 
 private keys
 
-zsh max histroy to 99999999
-
-`https://github.com/NorthShad0w/neovim_config`
